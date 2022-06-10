@@ -5,6 +5,7 @@
     --link-active-color: #2196F3;
     --white-color: #FFFFFF;
     --footer-contact-color: rgba(255, 255, 255, 0.6);
+    --background-button-color: #F5F4FA;
 }
 
 body {
@@ -34,10 +35,16 @@ color: var(--link-active-color);
     color: var(--link-base-color);
 }
 
+.site-nav .link.current{
+color: var(--link-active-color);
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus {
 color: var(--link-active-color);
 }
+
+
 
 /* contacts */
 .contacts .link {
@@ -57,6 +64,16 @@ color: var(--link-active-color);
 color: var(--white-color);
 }
 
+.batton.primary {
+    background-color: var(--link-active-color);
+    color: var(--white-color);
+}
+.batton.primary:hover,
+.batton.primary:focus {
+    background-color: var(--white-color);
+    color: var(--link-active-color);
+}
+
 /* section */
 .section-title {
 color: var(--link-base-color); 
@@ -73,9 +90,21 @@ color: var(--link-base-color);
 }
 
 /* portfolio */
-.filters-projects-item {
+.button-filters {
+    color: var(--link-base-color);
+    background-color: var(--background-button-color);
+}
+
+.button-filters.item {
+    background-color: var(--background-button-color);
     color: var(--link-base-color);
 }
+
+.button-filters.item:hover,
+.button-filters.item:focus {
+    background-color: var(--link-active-color);
+    color: var(--white-color);
+} 
 
 .list-projects .project {
     color: var(--link-base-color);
