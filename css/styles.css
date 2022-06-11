@@ -6,7 +6,7 @@
   --white-color: #ffffff;
   --footer-contact-color: rgba(255, 255, 255, 0.6);
   --background-button-color: #f5f4fa;
-  --secondary-background-color:#2f303a;
+  --secondary-background-color: #2f303a;
 }
 
 body {
@@ -81,9 +81,12 @@ body {
 }
 
 /* Секція Hero */
+.hero {
+  background-color: var(--secondary-background-color);
+}
+
 .hero-title {
   color: var(--white-color);
-  background-color: var(--secondary-background-color)
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -143,7 +146,7 @@ body {
 
 /* Секція Footer */
 .footer {
-  background-color: var(--secondary-background-color)
+  background-color: var(--secondary-background-color);
 }
 
 .footer .logo {
