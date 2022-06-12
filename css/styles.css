@@ -18,14 +18,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.header-list,
-.header-contacts-list,
-.benefits-list,
-.about-list,
-.team-list,
-.footer-list,
-.portfolio-filters-list,
-.portfolio-projects-list {
+.list {
   list-style: none;
 }
 
@@ -104,6 +97,7 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
   cursor: pointer;
+  border: none;
 }
 .hero-batton:hover,
 .hero-batton:focus {
@@ -132,16 +126,29 @@ body {
 /* Секція About */
 
 /* Секція Team */
+.team {
+  background-color: var(--background-button-color);
+}
+
+.team-item {
+  background-color: var(--white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .team-unit {
   color: var(--link-base-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
 }
 
 .team .job-title {
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
 }
 
 /* Секція Footer */
@@ -197,6 +204,7 @@ body {
   line-height: 1.62;
   letter-spacing: 0.03em;
   cursor: pointer;
+  border: none;
 }
 
 .portfolio-filters-item:hover,
