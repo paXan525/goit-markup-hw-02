@@ -3,6 +3,7 @@
   --title-text-color: #000000;
   --link-base-color: #212121;
   --link-active-color: #2196f3;
+  --btn-active-color: #188ce8;
   --white-color: #ffffff;
   --footer-contact-color: rgba(255, 255, 255, 0.6);
   --background-button-color: #f5f4fa;
@@ -101,7 +102,7 @@ body {
 }
 .hero-batton:hover,
 .hero-batton:focus {
-  background-color: var(--white-color);
+  background-color: var(--btn-active-color);
   color: var(--link-active-color);
 }
 
@@ -132,9 +133,6 @@ body {
 
 .team-item {
   background-color: var(--white-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
 }
 
 .team-unit {
